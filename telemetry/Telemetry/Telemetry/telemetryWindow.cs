@@ -551,7 +551,9 @@ namespace Telemetry
                 }
                 #endregion
 
-                messageToSend = m1ToWrite.ToString() + " " + m2ToWrite.ToString() + " " + m3ToWrite.ToString() + " " + m4ToWrite.ToString();
+                int checksum = m1ToWrite + m2ToWrite + m3ToWrite + m4ToWrite;
+                messageToSend = m1ToWrite.ToString() + " " + m2ToWrite.ToString() + " " + m3ToWrite.ToString() + " " + m4ToWrite.ToString() + " " + checksum.ToString();
+                
 
                 commandBox.Text = messageToSend;
 
