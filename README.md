@@ -4,4 +4,4 @@
 - Send data to ArduMega of the QuadCopter via Serial Port XBee<br>
 - Read telemetry data from Serial Port XBee<br>
 - Visualize telemetry data for monitoring & analysis</p><br>
-<p>By Robert Hoenig and Nguyen Thai Dai Vu 2015</p>
+<p>By Nguyen Thai Dai Vu and Robert H&ouml;nig 2015</p>
